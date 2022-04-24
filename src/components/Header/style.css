@@ -1,0 +1,70 @@
+.title {
+    text-align: center;
+}
+
+.car {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 5%;
+}
+
+.modal-button {
+    display: block;       
+}
+
+button {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border: 0 white;
+}
+
+.list {
+    width: 50px;
+    height: 50px;
+}
+
+.title-modal {
+    text-align: center;
+}
+
+.button-close {
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
+
+.prod-item-car {
+    text-align: left;
+    padding: 2%;
+    margin-left: 20px;
+    box-shadow: 0.5px 1px 1px black;
+}  
+
+.lbl-item {
+    margin: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.lbl-total {
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2%;
+}
+
+
+.lbl-item .item-remove {
+    width: 20px;
+    color: red;
+}
+
+.swal-button {
+    width: 70px;
+    padding: 0px;
+}
